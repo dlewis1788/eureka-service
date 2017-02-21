@@ -1,12 +1,15 @@
 .classpath
 .project
 *.iml
-*.ipr
-*.iws
 .settings/
 .idea/
 target/
 .DS_Store
 .floo*
+static/bower_components/
 build/
 .gradle/
+distillehr_output/
+/*.ipr
+/*.iws
+data/
