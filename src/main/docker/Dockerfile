@@ -1,4 +1,4 @@
-FROM openjdk:8u121-jdk
+FROM openjdk:8u131-jre
 VOLUME /tmp
 ADD eureka-service-0.0.1-SNAPSHOT.jar eureka-service-0.0.1-SNAPSHOT.jar
 RUN sh -c 'touch /eureka-service-0.0.1-SNAPSHOT.jar'
